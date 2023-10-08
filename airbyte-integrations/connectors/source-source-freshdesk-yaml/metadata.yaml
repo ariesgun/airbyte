@@ -1,0 +1,25 @@
+data:
+  allowedHosts:
+    hosts:
+      - TODO # Please change to the hostname of the source.
+  registries:
+    oss:
+      enabled: false
+    cloud:
+      enabled: false
+  connectorSubtype: api
+  connectorType: source
+  definitionId: c1ec175e-6c78-44ff-9823-a307b0917122
+  dockerImageTag: 0.1.0
+  dockerRepository: airbyte/source-source-freshdesk-yaml
+  githubIssueLabel: source-source-freshdesk-yaml
+  icon: source-freshdesk-yaml.svg
+  license: MIT
+  name: Source Freshdesk Yaml
+  releaseDate: TODO
+  releaseStage: alpha
+  supportLevel: community
+  documentationUrl: https://docs.airbyte.com/integrations/sources/source-freshdesk-yaml
+  tags:
+    - language:lowcode
+metadataSpecVersion: "1.0"
