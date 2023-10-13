@@ -233,7 +233,7 @@ definitions:
   unique_coupons_stream:
     $ref: "#/definitions/base_stream"
     $parameters:
-      name: "unique_coupon_codes"
+      name: "unique_coupons"
     retriever:
       $ref: "#/definitions/retriever"
       requester:
